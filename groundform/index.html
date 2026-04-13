@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Groundform Landscapes | Colchester, Essex</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- CURSOR DOT -->
+  <div class="cursor" id="cursor"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="#" class="nav__brand">
+        <span class="nav__brand-mark">GF</span>
+        <span class="nav__brand-name">Groundform<br><em>Landscapes</em></span>
+      </a>
+      <button class="nav__burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="contact.html" class="nav__cta">Free Quote</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__media">
+      <img
+        src="landscaping.jpg"
+        alt="Beautiful landscaped garden"
+        class="hero__img"
+        id="heroImg"
+      />
+      <div class="hero__grain"></div>
+      <div class="hero__overlay"></div>
+    </div>
+
+    <div class="hero__content">
+      <div class="hero__tag fade-up">Colchester · Essex · 10+ Years</div>
+      <h1 class="hero__headline fade-up delay-1">
+        <span class="hero__headline-line">Gardens</span>
+        <span class="hero__headline-line hero__headline-line--italic">Transformed.</span>
+        <span class="hero__headline-line">Spaces</span>
+        <span class="hero__headline-line hero__headline-line--italic">Reimagined.</span>
+      </h1>
+      <p class="hero__sub fade-up delay-2">
+        Full-service landscaping & garden design across Colchester and Essex — from concept to completion.
+      </p>
+      <div class="hero__actions fade-up delay-3">
+        <a href="#contact" class="btn btn--lime">Get a Free Quote</a>
+        <a href="#gallery" class="btn btn--outline">See Our Work</a>
+      </div>
+    </div>
+
+    <div class="hero__scroll">
+      <div class="hero__scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+
+    <div class="hero__stats">
+      <div class="hero__stat fade-up delay-2">
+        <strong>10+</strong>
+        <span>Years Experience</span>
+      </div>
+      <div class="hero__stat fade-up delay-3">
+        <strong>400+</strong>
+        <span>Projects Completed</span>
+      </div>
+      <div class="hero__stat fade-up delay-4">
+        <strong>100%</strong>
+        <span>Client Satisfaction</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>Garden Design</span><span class="marquee__dot">◆</span>
+      <span>Patios & Paving</span><span class="marquee__dot">◆</span>
+      <span>Lawn Installation</span><span class="marquee__dot">◆</span>
+      <span>Planting & Borders</span><span class="marquee__dot">◆</span>
+      <span>Driveways</span><span class="marquee__dot">◆</span>
+      <span>Fencing & Gates</span><span class="marquee__dot">◆</span>
+      <span>Water Features</span><span class="marquee__dot">◆</span>
+      <span>Garden Maintenance</span><span class="marquee__dot">◆</span>
+      <span>Decking</span><span class="marquee__dot">◆</span>
+      <span>Pergolas</span><span class="marquee__dot">◆</span>
+      <!-- duplicate for seamless loop -->
+      <span>Garden Design</span><span class="marquee__dot">◆</span>
+      <span>Patios & Paving</span><span class="marquee__dot">◆</span>
+      <span>Lawn Installation</span><span class="marquee__dot">◆</span>
+      <span>Planting & Borders</span><span class="marquee__dot">◆</span>
+      <span>Driveways</span><span class="marquee__dot">◆</span>
+      <span>Fencing & Gates</span><span class="marquee__dot">◆</span>
+      <span>Water Features</span><span class="marquee__dot">◆</span>
+      <span>Garden Maintenance</span><span class="marquee__dot">◆</span>
+      <span>Decking</span><span class="marquee__dot">◆</span>
+      <span>Pergolas</span><span class="marquee__dot">◆</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="services__header">
+        <div class="reveal">
+          <p class="eyebrow">What We Do</p>
+          <h2 class="section-title">Everything Your<br><em>Garden Needs</em></h2>
+        </div>
+        <p class="services__intro reveal">From a complete garden overhaul to regular maintenance — Henry and the Groundform team handle it all. Every project is approached with the same care and precision, no matter the size.</p>
+      </div>
+
+      <div class="services__grid">
+        <div class="service-card reveal" style="--img:url('gardendesign.jpeg')">
+          <div class="service-card__bg"></div>
+          <div class="service-card__content">
+            <span class="service-card__num">01</span>
+            <h3>Garden Design</h3>
+            <p>Bespoke designs crafted around your lifestyle, outdoor space, and vision. We draw it, then we build it.</p>
+          </div>
+        </div>
+        <div class="service-card reveal delay-1" style="--img:url('patiosandpaving.jpg')">
+          <div class="service-card__bg"></div>
+          <div class="service-card__content">
+            <span class="service-card__num">02</span>
+            <h3>Patios & Paving</h3>
+            <p>Natural stone, porcelain, block paving — precision-laid outdoor spaces built to last for decades.</p>
+          </div>
+        </div>
+        <div class="service-card reveal delay-2" style="--img:url('lawnandturfing.jpeg')">
+          <div class="service-card__bg"></div>
+          <div class="service-card__content">
+            <span class="service-card__num">03</span>
+            <h3>Lawn & Turfing</h3>
+            <p>New lawns laid, tired ones restored. We use only premium turf for a lush, lasting finish.</p>
+          </div>
+        </div>
+        <div class="service-card reveal" style="--img:url('plantingandborders.jpeg')">
+          <div class="service-card__bg"></div>
+          <div class="service-card__content">
+            <span class="service-card__num">04</span>
+            <h3>Planting & Borders</h3>
+            <p>Seasonal planting schemes, flower beds and borders that bring colour and life to your outdoor space.</p>
+          </div>
+        </div>
+        <div class="service-card reveal delay-1" style="--img:url('fencingandstructures.jpg')">
+          <div class="service-card__bg"></div>
+          <div class="service-card__content">
+            <span class="service-card__num">05</span>
+            <h3>Fencing & Structures</h3>
+            <p>Fencing, gates, pergolas, raised beds and retaining walls — built properly, built to last.</p>
+          </div>
+        </div>
+        <div class="service-card reveal delay-2" style="--img:url('landscaping7.jpeg')">
+          <div class="service-card__bg"></div>
+          <div class="service-card__content">
+            <span class="service-card__num">06</span>
+            <h3>Maintenance</h3>
+            <p>Regular garden care to keep your outdoor space looking its very best, all year round.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / WHY US -->
+  <section class="about section" id="about">
+    <div class="about__image-col reveal">
+      <div class="about__img-stack">
+        <img src="landscaping2.jpg" alt="Landscaped garden" class="about__img about__img--main" />
+        <img src="landscaping3.jpg" alt="Garden detail" class="about__img about__img--accent" />
+        <div class="about__badge">
+          <strong>10+</strong>
+          <span>Years in<br>Essex</span>
+        </div>
+      </div>
+    </div>
+    <div class="about__text-col">
+      <p class="eyebrow reveal">Why Choose Groundform</p>
+      <h2 class="section-title reveal"><em>Built on Craft.</em><br>Rooted in Essex.</h2>
+      <p class="about__lead reveal">Henry founded Groundform Landscapes over a decade ago with one goal: to create outdoor spaces that genuinely improve the lives of the people who use them.</p>
+
+      <div class="trust-grid">
+        <div class="trust-item reveal">
+          <div class="trust-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <div>
+            <h4>Fully Insured</h4>
+            <p>Every project is fully covered with public liability insurance. Your home, your peace of mind.</p>
+          </div>
+        </div>
+        <div class="trust-item reveal delay-1">
+          <div class="trust-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <div>
+            <h4>On Time, Every Time</h4>
+            <p>We respect your home and your schedule. Clear timelines agreed before any work begins.</p>
+          </div>
+        </div>
+        <div class="trust-item reveal">
+          <div class="trust-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 01-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75"/></svg>
+          </div>
+          <div>
+            <h4>Honest Pricing</h4>
+            <p>No hidden extras. No nasty surprises. We quote fairly and stick to it.</p>
+          </div>
+        </div>
+        <div class="trust-item reveal delay-1">
+          <div class="trust-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"/></svg>
+          </div>
+          <div>
+            <h4>Premium Finish</h4>
+            <p>We don't leave until the job is done to a standard we'd be proud to show anyone.</p>
+          </div>
+        </div>
+        <div class="trust-item reveal">
+          <div class="trust-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+          </div>
+          <div>
+            <h4>Local to Colchester</h4>
+            <p>We know the Essex soil, climate and planning landscape. 10+ years working locally.</p>
+          </div>
+        </div>
+        <div class="trust-item reveal delay-1">
+          <div class="trust-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"/></svg>
+          </div>
+          <div>
+            <h4>Free Consultation</h4>
+            <p>We visit your garden, listen to your ideas, and give you a detailed quote — completely free.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="eyebrow">Our Work</p>
+        <h2 class="section-title">Recent Projects</h2>
+        <p class="section-sub">A selection of gardens we've designed and built across Colchester and Essex.</p>
+      </div>
+    </div>
+    <div class="gallery__grid">
+      <div class="gallery__item gallery__item--tall reveal" data-label="Full Garden Redesign · Colchester">
+        <img src="landscaping.jpg" alt="Garden redesign" />
+        <div class="gallery__item-overlay"><span>Full Garden Redesign · Colchester</span></div>
+      </div>
+      <div class="gallery__item reveal delay-1" data-label="Sandstone Patio · Mersea">
+        <img src="patiosandpaving.jpg" alt="Patio" />
+        <div class="gallery__item-overlay"><span>Sandstone Patio · Mersea</span></div>
+      </div>
+      <div class="gallery__item reveal delay-2" data-label="New Lawn & Borders · Dedham">
+        <img src="gardendesign.jpeg" alt="Lawn" />
+        <div class="gallery__item-overlay"><span>New Lawn & Borders · Dedham</span></div>
+      </div>
+      <div class="gallery__item reveal" data-label="Planting Scheme · Wivenhoe">
+        <img src="plantingandborders.jpeg" alt="Planting" />
+        <div class="gallery__item-overlay"><span>Planting Scheme · Wivenhoe</span></div>
+      </div>
+      <div class="gallery__item gallery__item--wide reveal delay-1" data-label="Garden Design & Lighting · Colchester">
+        <img src="landscaping2.jpg" alt="Garden design with lighting" />
+        <div class="gallery__item-overlay"><span>Garden Design & Lighting · Colchester</span></div>
+      </div>
+      <div class="gallery__item reveal delay-2" data-label="Fencing & Garden Structure · Lexden">
+        <img src="fencingandstructures.jpg" alt="Fencing and garden structure" />
+        <div class="gallery__item-overlay"><span>Fencing & Garden Structure · Lexden</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews section" id="reviews">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="eyebrow">Customer Reviews</p>
+        <h2 class="section-title">What Essex Homeowners<br><em>Say About Us</em></h2>
+        <div class="reviews__overall">
+          <div class="reviews__stars-big">★★★★★</div>
+          <span>5.0 · Rated Excellent · Real reviews from real customers</span>
+        </div>
+      </div>
+      <div class="reviews__grid">
+        <div class="review-card reveal">
+          <div class="review-card__top">
+            <div class="review-card__avatar">M</div>
+            <div>
+              <strong>Mark & Julie T.</strong>
+              <span>Colchester</span>
+            </div>
+            <div class="review-card__stars">★★★★★</div>
+          </div>
+          <p>"Henry completely transformed our back garden. We had an overgrown, unusable space — now we have a stunning patio, raised beds, and a lawn the kids actually use. The attention to detail was something else. Couldn't recommend Groundform highly enough."</p>
+          <div class="review-card__service">Garden Redesign & Patio</div>
+        </div>
+        <div class="review-card reveal delay-1">
+          <div class="review-card__top">
+            <div class="review-card__avatar">S</div>
+            <div>
+              <strong>Sarah O.</strong>
+              <span>Mersea Island</span>
+            </div>
+            <div class="review-card__stars">★★★★★</div>
+          </div>
+          <p>"Brilliant from start to finish. Henry came round within a day of me calling, the quote was fair, and the team were incredibly tidy and professional throughout. My new patio is exactly what I wanted — it looks like it belongs in a magazine."</p>
+          <div class="review-card__service">Sandstone Patio Installation</div>
+        </div>
+        <div class="review-card reveal delay-2">
+          <div class="review-card__top">
+            <div class="review-card__avatar">D</div>
+            <div>
+              <strong>David R.</strong>
+              <span>Wivenhoe</span>
+            </div>
+            <div class="review-card__stars">★★★★★</div>
+          </div>
+          <p>"Used Groundform for a full front and back garden overhaul. Fencing, new turf, planting borders, the lot. Henry was honest, communicative, and the results were genuinely beyond what I expected. Will absolutely use again."</p>
+          <div class="review-card__service">Full Garden Overhaul</div>
+        </div>
+        <div class="review-card reveal">
+          <div class="review-card__top">
+            <div class="review-card__avatar">R</div>
+            <div>
+              <strong>Rachel & Tom P.</strong>
+              <span>Dedham</span>
+            </div>
+            <div class="review-card__stars">★★★★★</div>
+          </div>
+          <p>"We've had a few landscapers over the years and none have come close to the quality Henry delivers. He genuinely cares about the work. He came back after completion just to check everything had settled properly. Exceptional service."</p>
+          <div class="review-card__service">Lawn, Borders & Fencing</div>
+        </div>
+        <div class="review-card reveal delay-1">
+          <div class="review-card__top">
+            <div class="review-card__avatar">C</div>
+            <div>
+              <strong>Christine B.</strong>
+              <span>Lexden, Colchester</span>
+            </div>
+            <div class="review-card__stars">★★★★★</div>
+          </div>
+          <p>"I wasn't sure what I wanted — just knew the garden needed help. Henry sat with me, listened, and came up with a design I fell in love with instantly. The build was smooth, on time, and on budget. Truly a pleasure to deal with."</p>
+          <div class="review-card__service">Garden Design & Build</div>
+        </div>
+        <div class="review-card reveal delay-2">
+          <div class="review-card__top">
+            <div class="review-card__avatar">J</div>
+            <div>
+              <strong>James H.</strong>
+              <span>Ardleigh</span>
+            </div>
+            <div class="review-card__stars">★★★★★</div>
+          </div>
+          <p>"Had a block paving driveway installed and a rear garden turfed. Both look fantastic. The team were punctual every single day, left the site clean, and the price matched the quote exactly. Exactly what you want from a tradesperson."</p>
+          <div class="review-card__service">Driveway & Lawn Installation</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq section" id="faq">
+    <div class="faq__bg">
+      <img src="landscaping3.jpg" alt="" />
+      <div class="faq__bg-overlay"></div>
+    </div>
+    <div class="container faq__inner">
+      <div class="faq__header reveal">
+        <p class="eyebrow light">Got Questions?</p>
+        <h2 class="section-title light">Frequently<br><em>Asked Questions</em></h2>
+      </div>
+      <div class="faq__list">
+        <div class="faq__item reveal">
+          <button class="faq__q" aria-expanded="false">
+            <span>Do you offer free quotes?</span>
+            <div class="faq__icon"><span></span><span></span></div>
+          </button>
+          <div class="faq__a">
+            <p>Yes — always. We offer completely free, no-obligation consultations and quotes for every project. Henry will visit your property in person, take time to understand exactly what you're looking for, and provide a detailed written quote with clear pricing. There's no pressure and no cost involved at all.</p>
+          </div>
+        </div>
+        <div class="faq__item reveal delay-1">
+          <button class="faq__q" aria-expanded="false">
+            <span>What areas do you cover?</span>
+            <div class="faq__icon"><span></span><span></span></div>
+          </button>
+          <div class="faq__a">
+            <p>We're based in Colchester and cover all of Essex and the surrounding areas — including Ipswich, Dedham, Wivenhoe, Mersea, Lexden, Ardleigh, Braintree, Chelmsford, Sudbury, and beyond. If you're not sure whether we cover your area, just give us a call and we'll let you know straight away.</p>
+          </div>
+        </div>
+        <div class="faq__item reveal delay-2">
+          <button class="faq__q" aria-expanded="false">
+            <span>How long will my project take?</span>
+            <div class="faq__icon"><span></span><span></span></div>
+          </button>
+          <div class="faq__a">
+            <p>It completely depends on the scope of the work. A patio installation or new turf typically takes 2–5 days. A full garden redesign might take 2–4 weeks. We always give you a clear project timeline before we start, and we keep you updated throughout. We never rush a job — the finish is too important for that.</p>
+          </div>
+        </div>
+        <div class="faq__item reveal">
+          <button class="faq__q" aria-expanded="false">
+            <span>Are you insured?</span>
+            <div class="faq__icon"><span></span><span></span></div>
+          </button>
+          <div class="faq__a">
+            <p>Absolutely. Groundform Landscapes carries full public liability insurance on every single project. You can have complete peace of mind that your property and our team are fully protected throughout the duration of any work we carry out. We're happy to provide proof of insurance on request.</p>
+          </div>
+        </div>
+        <div class="faq__item reveal delay-1">
+          <button class="faq__q" aria-expanded="false">
+            <span>What's the best time of year to landscape?</span>
+            <div class="faq__icon"><span></span><span></span></div>
+          </button>
+          <div class="faq__a">
+            <p>The honest answer is: most of the year. Hard landscaping (patios, paving, fencing, driveways) can be done in almost any season. Turfing and planting are best done in spring or autumn when the ground is moist and temperatures are mild. We'll always advise you on the best timing for your specific project during the consultation.</p>
+          </div>
+        </div>
+        <div class="faq__item reveal delay-2">
+          <button class="faq__q" aria-expanded="false">
+            <span>Can you design the garden as well as build it?</span>
+            <div class="faq__icon"><span></span><span></span></div>
+          </button>
+          <div class="faq__a">
+            <p>Yes — this is one of our strengths. Henry offers a full design-and-build service. You don't need to come to us with a finished plan. We'll sit down with you, understand how you use your garden and what you want from it, create a design concept, refine it with you, and then build it. One team, start to finish.</p>
+          </div>
+        </div>
+        <div class="faq__item reveal">
+          <button class="faq__q" aria-expanded="false">
+            <span>Do you do ongoing garden maintenance?</span>
+            <div class="faq__icon"><span></span><span></span></div>
+          </button>
+          <div class="faq__a">
+            <p>We do. We offer regular maintenance packages for both domestic and commercial clients — covering lawn mowing, edging, hedge trimming, weeding, pruning, and general upkeep. Whether you'd like a monthly visit or more frequent care, we can put together a package that suits your garden and your budget. Just mention it when you get in touch.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container contact__inner">
+      <div class="contact__left reveal">
+        <p class="eyebrow">Get In Touch</p>
+        <h2 class="section-title">Start Your<br><em>Garden Journey</em></h2>
+        <p class="contact__blurb">Ready to transform your outdoor space? Give Henry a call or drop your details below and we'll be in touch — usually within a few hours.</p>
+        <a href="tel:07388218625" class="contact__phone">
+          <div class="contact__phone-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"/></svg>
+          </div>
+          <div>
+            <span>Call Henry Direct</span>
+            <strong>07388 218 625</strong>
+          </div>
+        </a>
+        <div class="contact__info-items">
+          <div class="contact__info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+            <span>Colchester, Essex & Surrounding Areas</span>
+          </div>
+          <div class="contact__info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span>Mon – Sat: 7:30am – 6:00pm</span>
+          </div>
+        </div>
+      </div>
+      <div class="contact__form-col reveal delay-1">
+        <form class="contact__form" id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" placeholder="Henry" required />
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" placeholder="Smith" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="henry@example.com" required />
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="07700 000 000" />
+          </div>
+          <div class="form-group">
+            <label>Service Required</label>
+            <select>
+              <option value="">Please select a service...</option>
+              <option>Garden Design & Build</option>
+              <option>Patio or Paving</option>
+              <option>Lawn & Turfing</option>
+              <option>Planting & Borders</option>
+              <option>Fencing & Structures</option>
+              <option>Driveway</option>
+              <option>Garden Maintenance</option>
+              <option>Not Sure / General Enquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Tell Us About Your Project</label>
+            <textarea rows="4" placeholder="Give us a brief idea of what you're looking for — size of garden, any ideas you have, timescales..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--lime btn--full">Send My Enquiry</button>
+          <p class="form-note">Free quote · No obligation · Usually respond same day</p>
+        </form>
+        <div class="form-success" id="formSuccess">
+          <div class="form-success__content">
+            <div class="form-success__tick">✓</div>
+            <h3>Enquiry Sent!</h3>
+            <p>Thanks for reaching out. Henry will be in touch with you shortly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <span class="nav__brand-mark">GF</span>
+          <span>Groundform<br><em>Landscapes</em></span>
+        </div>
+        <p>Constructing beautiful outdoor spaces across Colchester and Essex since 2014.</p>
+      </div>
+      <div class="footer__nav">
+        <h5>Navigate</h5>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer__services">
+        <h5>Services</h5>
+        <a href="services.html#garden-design">Garden Design</a>
+        <a href="services.html#patios">Patios & Paving</a>
+        <a href="services.html#lawn">Lawn & Turfing</a>
+        <a href="services.html#fencing">Fencing</a>
+        <a href="services.html#planting">Planting & Borders</a>
+        <a href="services.html#maintenance">Maintenance</a>
+      </div>
+      <div class="footer__contact">
+        <h5>Contact</h5>
+        <a href="tel:07388218625">07388 218 625</a>
+        <span>Colchester, Essex</span>
+        <span>Mon–Sat: 7:30am–6pm</span>
+        <a href="contact.html" class="btn btn--lime btn--sm">Free Quote</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 Groundform Landscapes. All rights reserved.</p>
+      <p>Website by <em>DSH Modern</em></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

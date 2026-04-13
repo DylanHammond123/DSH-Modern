@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery | Groundform Landscapes</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="inner.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+
+  <!-- NAV -->
+  <nav class="nav scrolled" id="navbar">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <span class="nav__brand-mark">GF</span>
+        <span class="nav__brand-name">Groundform<br><em>Landscapes</em></span>
+      </a>
+      <button class="nav__burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="index.html#reviews">Reviews</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="contact.html" class="nav__cta">Free Quote</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero__bg">
+      <img src="gardendesign.jpeg" alt="Gallery" />
+      <div class="page-hero__overlay"></div>
+    </div>
+    <div class="page-hero__content container">
+      <p class="page-hero__breadcrumb"><a href="index.html">Home</a> <span>/</span> Gallery</p>
+      <h1 class="page-hero__title">Our <em>Work</em></h1>
+      <p class="page-hero__sub">A selection of gardens we've designed, built and transformed across Colchester and Essex.</p>
+    </div>
+  </section>
+
+  <!-- FILTER + GALLERY -->
+  <section class="section full-gallery">
+    <div class="container">
+      <div class="gallery-filter reveal">
+        <button class="gallery-filter__btn active" data-filter="all">All Projects</button>
+        <button class="gallery-filter__btn" data-filter="design">Garden Design</button>
+        <button class="gallery-filter__btn" data-filter="patio">Patios & Paving</button>
+        <button class="gallery-filter__btn" data-filter="lawn">Lawn & Turfing</button>
+        <button class="gallery-filter__btn" data-filter="planting">Planting</button>
+        <button class="gallery-filter__btn" data-filter="fencing">Fencing</button>
+      </div>
+    </div>
+
+    <div class="full-gallery__grid" id="galleryGrid">
+
+      <div class="fg-item reveal" data-category="design">
+        <img src="landscaping.jpg" alt="Garden design with evening lighting" />
+        <div class="fg-item__overlay">
+          <span class="fg-item__cat">Garden Design</span>
+          <strong>Evening Garden Redesign</strong>
+          <p>Colchester</p>
+        </div>
+      </div>
+
+      <div class="fg-item reveal delay-1" data-category="patio">
+        <img src="patiosandpaving.jpg" alt="Sandstone patio" />
+        <div class="fg-item__overlay">
+          <span class="fg-item__cat">Patios & Paving</span>
+          <strong>Sandstone Patio</strong>
+          <p>Mersea Island</p>
+        </div>
+      </div>
+
+      <div class="fg-item reveal delay-2" data-category="design">
+        <img src="gardendesign.jpeg" alt="Planting borders garden design" />
+        <div class="fg-item__overlay">
+          <span class="fg-item__cat">Garden Design</span>
+          <strong>Border Planting Scheme</strong>
+          <p>Wivenhoe</p>
+        </div>
+      </div>
+
+      <div class="fg-item reveal" data-category="planting">
+        <img src="plantingandborders.jpeg" alt="Planting and borders" />
+        <div class="fg-item__overlay">
+          <span class="fg-item__cat">Planting & Borders</span>
+          <strong>Mixed Planting Scheme</strong>
+          <p>Dedham</p>
+        </div>
+      </div>
+
+      <div class="fg-item reveal delay-1" data-category="design">
+        <img src="landscaping2.jpg" alt="Landscaped garden" />
+        <div class="fg-item__overlay">
+          <span class="fg-item__cat">Garden Design</span>
+          <strong>Modern Garden Redesign</strong>
+          <p>Colchester</p>
+        </div>
+      </div>
+
+      <div class="fg-item reveal delay-2" data-category="fencing">
+        <img src="fencingandstructures.jpg" alt="Fencing and structures" />
+        <div class="fg-item__overlay">
+          <span class="fg-item__cat">Fencing & Structures</span>
+          <strong>Lap Panel Fencing</strong>
+          <p>Lexden</p>
+        </div>
+      </div>
+
+      <div class="fg-item reveal" data-category="design">
+        <img src="landscaping3.jpg" alt="Landscaped garden with paving" />
+        <div class="fg-item__overlay">
+          <span class="fg-item__cat">Garden Design</span>
+          <strong>Full Garden Transformation</strong>
+          <p>Ardleigh</p>
+        </div>
+      </div>
+
+      <div class="fg-item reveal delay-1" data-category="lawn">
+        <img src="lawnandturfing.jpeg" alt="Lawn turfing" />
+        <div class="fg-item__overlay">
+          <span class="fg-item__cat">Lawn & Turfing</span>
+          <strong>Premium Turf Installation</strong>
+          <p>Colchester</p>
+        </div>
+      </div>
+
+      <div class="fg-item reveal delay-2" data-category="design">
+        <img src="landscaping7.jpeg" alt="Landscaping project" />
+        <div class="fg-item__overlay">
+          <span class="fg-item__cat">Garden Design</span>
+          <strong>Rear Garden Makeover</strong>
+          <p>Mersea Island</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MORE PROJECTS NOTE -->
+  <section class="more-projects section">
+    <div class="container more-projects__inner reveal">
+      <div class="more-projects__text">
+        <p class="eyebrow">Always Growing</p>
+        <h2 class="section-title">More Projects <em>Coming Soon</em></h2>
+        <p>We complete new projects across Essex every week. Follow us on Facebook for the latest transformations, before & afters, and client stories — or get in touch to discuss your own project.</p>
+      </div>
+      <div class="more-projects__actions">
+        <a href="contact.html" class="btn btn--lime">Start Your Project</a>
+        <a href="tel:07388218625" class="btn btn--outline-dark">📞 Call Henry</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" id="lightboxClose">✕</button>
+    <button class="lightbox__prev" id="lightboxPrev">‹</button>
+    <button class="lightbox__next" id="lightboxNext">›</button>
+    <div class="lightbox__img-wrap">
+      <img src="" alt="" id="lightboxImg" />
+    </div>
+    <div class="lightbox__caption" id="lightboxCaption"></div>
+  </div>
+  <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+
+  <!-- CTA BAND -->
+  <section class="cta-band">
+    <div class="container cta-band__inner reveal">
+      <div>
+        <h2>Like what you see?</h2>
+        <p>Let's talk about what we can create for your garden. Free consultation and quote, no obligation.</p>
+      </div>
+      <div class="cta-band__actions">
+        <a href="contact.html" class="btn btn--lime">Get a Free Quote</a>
+        <a href="tel:07388218625" class="btn btn--outline-dark">📞 07388 218 625</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <span class="nav__brand-mark">GF</span>
+          <span>Groundform<br><em>Landscapes</em></span>
+        </div>
+        <p>Creating beautiful outdoor spaces across Colchester and Essex since 2014.</p>
+      </div>
+      <div class="footer__nav">
+        <h5>Navigate</h5>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer__services">
+        <h5>Services</h5>
+        <a href="services.html#garden-design">Garden Design</a>
+        <a href="services.html#patios">Patios & Paving</a>
+        <a href="services.html#lawn">Lawn & Turfing</a>
+        <a href="services.html#fencing">Fencing</a>
+        <a href="services.html#planting">Planting & Borders</a>
+        <a href="services.html#maintenance">Maintenance</a>
+      </div>
+      <div class="footer__contact">
+        <h5>Contact</h5>
+        <a href="tel:07388218625">07388 218 625</a>
+        <span>Colchester, Essex</span>
+        <span>Mon–Sat: 7:30am–6pm</span>
+        <a href="contact.html" class="btn btn--lime btn--sm">Free Quote</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 Groundform Landscapes. All rights reserved.</p>
+      <p>Website by <em>DSH Modern</em></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Gallery filter
+    const filterBtns = document.querySelectorAll('.gallery-filter__btn');
+    const galleryItems = document.querySelectorAll('.fg-item');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        galleryItems.forEach(item => {
+          if (filter === 'all' || item.dataset.category === filter) {
+            item.style.display = '';
+            setTimeout(() => item.style.opacity = '1', 10);
+          } else {
+            item.style.opacity = '0';
+            setTimeout(() => item.style.display = 'none', 300);
+          }
+        });
+      });
+    });
+
+    // Lightbox
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxCaption = document.getElementById('lightboxCaption');
+    const backdrop = document.getElementById('lightboxBackdrop');
+    let currentIndex = 0;
+    let visibleItems = [];
+
+    function openLightbox(index) {
+      visibleItems = [...document.querySelectorAll('.fg-item:not([style*="display: none"])')];
+      currentIndex = index;
+      const item = visibleItems[currentIndex];
+      lightboxImg.src = item.querySelector('img').src;
+      lightboxCaption.textContent = item.querySelector('strong').textContent + ' · ' + item.querySelector('p').textContent;
+      lightbox.classList.add('open');
+      backdrop.classList.add('open');
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('open');
+      backdrop.classList.remove('open');
+    }
+
+    galleryItems.forEach((item, i) => {
+      item.addEventListener('click', () => openLightbox(i));
+    });
+
+    document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
+    backdrop.addEventListener('click', closeLightbox);
+
+    document.getElementById('lightboxPrev').addEventListener('click', () => {
+      visibleItems = [...document.querySelectorAll('.fg-item:not([style*="display: none"])')];
+      currentIndex = (currentIndex - 1 + visibleItems.length) % visibleItems.length;
+      const item = visibleItems[currentIndex];
+      lightboxImg.src = item.querySelector('img').src;
+      lightboxCaption.textContent = item.querySelector('strong').textContent + ' · ' + item.querySelector('p').textContent;
+    });
+
+    document.getElementById('lightboxNext').addEventListener('click', () => {
+      visibleItems = [...document.querySelectorAll('.fg-item:not([style*="display: none"])')];
+      currentIndex = (currentIndex + 1) % visibleItems.length;
+      const item = visibleItems[currentIndex];
+      lightboxImg.src = item.querySelector('img').src;
+      lightboxCaption.textContent = item.querySelector('strong').textContent + ' · ' + item.querySelector('p').textContent;
+    });
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') document.getElementById('lightboxPrev').click();
+      if (e.key === 'ArrowRight') document.getElementById('lightboxNext').click();
+    });
+  </script>
+</body>
+</html>
