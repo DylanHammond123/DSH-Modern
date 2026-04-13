@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deep Cleaning in Upminster | Ellie’s Executive Cleaning</title>
+  <meta
+    name="description"
+    content="Professional deep cleaning in Upminster by Ellie’s Executive Cleaning. Fully insured, all work guaranteed, with reliable deep cleans for homes and properties."
+  />
+  <meta
+    name="keywords"
+    content="deep cleaning Upminster, deep cleans Upminster, professional cleaners Upminster, house deep clean Upminster, end of tenancy cleaners near Upminster"
+  />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    :root {
+      --bg: #fffafc;
+      --white: #ffffff;
+      --text: #332f33;
+      --muted: #6e666d;
+      --pink-soft: #f7e6ec;
+      --pink-mid: #e8c7d3;
+      --pink-strong: #d9a7ba;
+      --rose-gold: #c79586;
+      --accent: #b87d93;
+      --dark: #2f2a2d;
+      --shadow: 0 12px 35px rgba(184, 125, 147, 0.12);
+      --radius-lg: 24px;
+      --radius-md: 18px;
+      --radius-sm: 12px;
+      --transition: all 0.3s ease;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    img {
+      width: 100%;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      width: min(1120px, 92%);
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 80px 0;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 22px;
+      border-radius: 999px;
+      font-weight: 600;
+      transition: var(--transition);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent), var(--rose-gold));
+      color: white;
+      box-shadow: var(--shadow);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      border: 1px solid rgba(184, 125, 147, 0.25);
+      background: rgba(255, 255, 255, 0.85);
+    }
+
+    .btn-secondary:hover {
+      background: var(--pink-soft);
+    }
+
+    .section-tag {
+      color: var(--accent);
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 0.82rem;
+      margin-bottom: 10px;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 250, 252, 0.94);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(184, 125, 147, 0.12);
+    }
+
+    .nav {
+      min-height: 84px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .logo {
+      width: 78px;
+      height: 78px;
+      object-fit: contain;
+      border-radius: 50%;
+    }
+
+    .simple-nav {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .hero {
+      padding: 70px 0 50px;
+      background:
+        radial-gradient(circle at top left, rgba(247, 230, 236, 0.9), transparent 35%),
+        linear-gradient(180deg, #fffafc 0%, #fff7fa 100%);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 38px;
+      align-items: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.4rem, 5vw, 4.3rem);
+      line-height: 1.05;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      color: var(--muted);
+      margin-bottom: 22px;
+      font-size: 1.04rem;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+
+    .trust-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .trust-pill {
+      padding: 12px 16px;
+      background: rgba(255, 255, 255, 0.85);
+      border: 1px solid rgba(184, 125, 147, 0.12);
+      border-radius: 999px;
+      box-shadow: var(--shadow);
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+
+    .hero-card {
+      background: white;
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      border: 5px solid rgba(255, 255, 255, 0.85);
+    }
+
+    .hero-card img {
+      height: 520px;
+      object-fit: cover;
+    }
+
+    .intro-box,
+    .content-card,
+    .cta-box,
+    .contact-card,
+    .map-card {
+      background: white;
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(184, 125, 147, 0.1);
+    }
+
+    .intro-box {
+      padding: 30px;
+    }
+
+    .intro-box h2,
+    .content-card h2,
+    .map-text h2,
+    .contact-card h2,
+    .cta-box h2 {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      margin-bottom: 14px;
+      line-height: 1.15;
+    }
+
+    .intro-box p,
+    .content-card p,
+    .map-text p,
+    .contact-card p,
+    .cta-box p {
+      color: var(--muted);
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-top: 28px;
+    }
+
+    .content-card {
+      padding: 28px;
+      transition: var(--transition);
+    }
+
+    .content-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .content-card h3 {
+      margin-bottom: 10px;
+      font-size: 1.12rem;
+    }
+
+    .content-card ul {
+      padding-left: 18px;
+      color: var(--muted);
+    }
+
+    .content-card li + li {
+      margin-top: 8px;
+    }
+
+    .location-copy {
+      margin-top: 28px;
+    }
+
+    .location-copy p + p {
+      margin-top: 14px;
+    }
+
+    .map-grid {
+      display: grid;
+      grid-template-columns: 0.95fr 1.05fr;
+      gap: 24px;
+      align-items: stretch;
+    }
+
+    .map-text {
+      padding: 28px;
+    }
+
+    .map-card {
+      overflow: hidden;
+      min-height: 420px;
+    }
+
+    .map-card iframe {
+      width: 100%;
+      height: 100%;
+      min-height: 420px;
+      border: 0;
+    }
+
+    .contact-card {
+      padding: 30px;
+    }
+
+    .contact-points {
+      display: grid;
+      gap: 14px;
+      margin: 22px 0;
+    }
+
+    .contact-point {
+      padding: 16px 18px;
+      border-radius: 16px;
+      background: var(--bg);
+      border: 1px solid rgba(184, 125, 147, 0.08);
+    }
+
+    .contact-point span {
+      display: block;
+      font-size: 0.82rem;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .social-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .social-links a {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .cta-box {
+      padding: 34px;
+      text-align: center;
+      background: linear-gradient(135deg, #fff, var(--pink-soft));
+    }
+
+    .site-footer {
+      padding: 24px 0;
+      border-top: 1px solid rgba(184, 125, 147, 0.1);
+      background: #fff;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .delay-1 { transition-delay: 0.12s; }
+    .delay-2 { transition-delay: 0.24s; }
+
+    @media (max-width: 1024px) {
+      .hero-grid,
+      .two-col,
+      .map-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-card img {
+        height: 420px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        padding: 64px 0;
+      }
+
+      .hero {
+        padding-top: 40px;
+      }
+
+      .hero h1 {
+        font-size: 2.3rem;
+      }
+
+      .hero-buttons,
+      .social-links,
+      .simple-nav {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      .logo {
+        width: 68px;
+        height: 68px;
+      }
+
+      .footer-content {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#">
+        <img src="images/Logo.jpg" alt="Ellie’s Executive Cleaning logo" class="logo" />
+      </a>
+
+      <div class="simple-nav">
+        <a href="#about-page" class="btn btn-secondary">About this page</a>
+        <a href="#map" class="btn btn-secondary">Map</a>
+        <a href="#contact" class="btn btn-primary">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="reveal">
+        <p class="section-tag">Deep Cleaning in Upminster</p>
+        <h1>Professional deep cleaning in Upminster</h1>
+        <p>
+          Ellie’s Executive Cleaning provides professional deep cleaning in Upminster for homes,
+          rented properties, and living spaces that need extra care and attention.
+        </p>
+        <p>
+          From kitchens and bathrooms to full-property refreshes, every deep clean is carried out
+          with a polished, high-standard finish.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Request a quote</a>
+          <a href="tel:07561600964" class="btn btn-secondary">Call 07561 600964</a>
+        </div>
+
+        <div class="trust-pills">
+          <div class="trust-pill">Fully insured</div>
+          <div class="trust-pill">All work guaranteed</div>
+          <div class="trust-pill">Friendly & professional</div>
+          <div class="trust-pill">Local service</div>
+        </div>
+      </div>
+
+      <div class="hero-card reveal delay-1">
+        <img src="images/kitchen1.jpg" alt="Deep cleaned kitchen in a bright modern home" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about-page">
+    <div class="container">
+      <div class="intro-box reveal">
+        <p class="section-tag">Local Cleaning Service</p>
+        <h2>Deep cleans for homes and properties in Upminster</h2>
+        <p>
+          This page is designed as a location-focused service page for local SEO. It targets
+          people looking specifically for deep cleaning in Upminster while still keeping the
+          branding and style consistent with the main Ellie’s Executive Cleaning website.
+        </p>
+      </div>
+
+      <div class="two-col">
+        <article class="content-card reveal">
+          <h3>What a deep clean can include</h3>
+          <ul>
+            <li>Detailed kitchen cleaning</li>
+            <li>Bathroom sanitising and finishing touches</li>
+            <li>Dusting of hard-to-reach areas</li>
+            <li>Attention to skirting boards, surfaces and fixtures</li>
+            <li>Refreshing living rooms, bedrooms and shared spaces</li>
+          </ul>
+        </article>
+
+        <article class="content-card reveal delay-1">
+          <h3>Why local customers choose Ellie’s Executive Cleaning</h3>
+          <ul>
+            <li>Reliable, friendly and professional approach</li>
+            <li>Fully insured for added peace of mind</li>
+            <li>All work guaranteed</li>
+            <li>High attention to detail</li>
+            <li>Suitable for one-off deep cleans and property refreshes</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="intro-box location-copy reveal delay-2">
+        <h2>Looking for a deep cleaner in Upminster?</h2>
+        <p>
+          If you are searching for a deep cleaning service in Upminster, Ellie’s Executive Cleaning
+          offers a high-standard, detail-focused clean designed to leave your home feeling fresh,
+          comfortable, and beautifully presented.
+        </p>
+        <p>
+          A professional deep clean can be ideal before guests arrive, after a busy period,
+          when moving in or out, or simply when your property needs more than a standard clean.
+          It is also a great option for homes that need extra attention in kitchens, bathrooms,
+          flooring, and general presentation.
+        </p>
+        <p>
+          This kind of local page works well for search terms such as
+          <strong>“deep cleaning Upminster”</strong>,
+          <strong>“deep cleaners in Upminster”</strong> and
+          <strong>“professional house deep clean Upminster”</strong>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="map">
+    <div class="container map-grid">
+      <div class="map-text content-card reveal">
+        <p class="section-tag">Service Area</p>
+        <h2>Serving Upminster and nearby areas</h2>
+        <p>
+          Adding a map to a local service page helps reinforce the geographic relevance of the page.
+          This is useful for both visitors and local SEO.
+        </p>
+        <p style="margin-top: 14px;">
+          You can duplicate this exact page structure later for places like Romford, Rainham,
+          Gidea Park, Harold Wood, Emerson Park, or other nearby areas you want to target.
+        </p>
+      </div>
+
+      <div class="map-card reveal delay-1">
+        <iframe
+          title="Map of Upminster"
+          loading="lazy"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Upminster,Essex&z=13&output=embed">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-box reveal">
+        <p class="section-tag">Need a deep clean?</p>
+        <h2>Get in touch for deep cleaning in Upminster</h2>
+        <p>
+          Ellie’s Executive Cleaning offers friendly, professional cleaning with a polished finish.
+          Fully insured and all work guaranteed.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-card reveal">
+        <p class="section-tag">Contact</p>
+        <h2>Contact Ellie’s Executive Cleaning</h2>
+        <p>
+          For enquiries about deep cleaning in Upminster, get in touch using the details below.
+        </p>
+
+        <div class="contact-points">
+          <div class="contact-point">
+            <span>Phone</span>
+            <strong><a href="tel:07561600964">07561 600964</a></strong>
+          </div>
+
+          <div class="contact-point">
+            <span>Email</span>
+            <strong><a href="mailto:enquiries@elliesexecutivecleaning.com">enquiries@elliesexecutivecleaning.com</a></strong>
+          </div>
+
+          <div class="contact-point">
+            <span>Location</span>
+            <strong>Hornchurch / Upminster area</strong>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="https://www.facebook.com/EllieExecutiveCleaning/" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://www.instagram.com/elliesexecutivecleaningltdx/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 Ellie’s Executive Cleaning. All rights reserved.</p>
+      <p>Fully insured | All work guaranteed</p>
+    </div>
+  </footer>
+
+  <script>
+    const revealElements = document.querySelectorAll(".reveal");
+
+    const revealOnScroll = () => {
+      const triggerBottom = window.innerHeight * 0.88;
+
+      revealElements.forEach((element) => {
+        const boxTop = element.getBoundingClientRect().top;
+
+        if (boxTop < triggerBottom) {
+          element.classList.add("active");
+        }
+      });
+    };
+
+    window.addEventListener("scroll", revealOnScroll);
+    window.addEventListener("load", revealOnScroll);
+  </script>
+</body>
+</html>
