@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New View Builders | Suffolk</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <img src="logo.jpg" alt="New View Builders" class="nav__logo-img" />
+      </a>
+      <button class="nav__burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact" class="nav__cta">Get a Quote</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80" alt="Beautiful home exterior" class="hero__bg-img" />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal">Suffolk's Trusted Builders</p>
+      <h1 class="hero__title reveal reveal--delay-1">Constructing<br /><em>Your Vision</em><br />Perfectly.</h1>
+      <p class="hero__sub reveal reveal--delay-2">Extensions · Patios · Driveways<br />Quality craftsmanship across Suffolk</p>
+      <div class="hero__actions reveal reveal--delay-3">
+        <a href="#contact" class="btn btn--primary">Get a Free Quote</a>
+        <a href="#services" class="btn btn--ghost">Our Services</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- INTRO STRIP -->
+  <section class="intro-strip">
+    <div class="intro-strip__inner">
+      <div class="intro-strip__item reveal">
+        <span class="intro-strip__icon">🏗️</span>
+        <div>
+          <strong>Extensions</strong>
+          <p>Transform your living space</p>
+        </div>
+      </div>
+      <div class="intro-strip__divider"></div>
+      <div class="intro-strip__item reveal reveal--delay-1">
+        <span class="intro-strip__icon">🏡</span>
+        <div>
+          <strong>Patios</strong>
+          <p>Outdoor spaces you'll love</p>
+        </div>
+      </div>
+      <div class="intro-strip__divider"></div>
+      <div class="intro-strip__item reveal reveal--delay-2">
+        <span class="intro-strip__icon">🧱</span>
+        <div>
+          <strong>Driveways</strong>
+          <p>Stunning first impressions</p>
+        </div>
+      </div>
+      <div class="intro-strip__divider"></div>
+      <div class="intro-strip__item reveal reveal--delay-3">
+        <span class="intro-strip__icon">📍</span>
+        <div>
+          <strong>Suffolk-Based</strong>
+          <p>Serving the local community</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">What We Do</p>
+        <h2 class="section-title">Our Core Services</h2>
+        <p class="section-sub">From the ground up — we build spaces that add real value to your home and life.</p>
+      </div>
+      <div class="services__grid">
+
+        <div class="service-card reveal">
+          <div class="service-card__img-wrap">
+            <img src="extension.jpg" alt="House Extension" class="service-card__img" />
+            <div class="service-card__img-overlay"></div>
+          </div>
+          <div class="service-card__body">
+            <h3>Extensions</h3>
+            <p>Need more room? We design and build single-storey and multi-storey extensions that feel like they've always been part of your home. From kitchen expansions to new living rooms, we handle everything from foundations to finishing.</p>
+            <a href="#contact" class="service-card__link">Enquire →</a>
+          </div>
+        </div>
+
+        <div class="service-card reveal reveal--delay-1">
+          <div class="service-card__img-wrap">
+            <img src="patio.jpg" alt="Patio Installation" class="service-card__img" />
+            <div class="service-card__img-overlay"></div>
+          </div>
+          <div class="service-card__body">
+            <h3>Patios</h3>
+            <p>A beautifully laid patio transforms your garden into an extension of your home. We work with a range of materials — natural stone, porcelain, block paving — crafted to last and laid to impress.</p>
+            <a href="#contact" class="service-card__link">Enquire →</a>
+          </div>
+        </div>
+
+        <div class="service-card reveal reveal--delay-2">
+          <div class="service-card__img-wrap">
+            <img src="driveway.jpg" alt="Driveway Installation" class="service-card__img" />
+            <div class="service-card__img-overlay"></div>
+          </div>
+          <div class="service-card__body">
+            <h3>Driveways</h3>
+            <p>Your driveway is the first thing visitors see. We install block paving, resin-bound, tarmac, and gravel driveways with precision — built to handle daily use while looking great all year round.</p>
+            <a href="#contact" class="service-card__link">Enquire →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="why section" id="why-us">
+    <div class="why__bg-image">
+      <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=80" alt="Builder at work" />
+      <div class="why__bg-tint"></div>
+    </div>
+    <div class="container why__inner">
+      <div class="why__text reveal">
+        <p class="section-eyebrow light">Why New View Builders</p>
+        <h2 class="section-title light">Built on Trust,<br /><em>Finished to Perfection</em></h2>
+        <p class="why__intro">Jed and the New View Builders team bring a hands-on, honest approach to every project. No hidden costs. No corners cut. Just quality work — done right.</p>
+      </div>
+      <div class="why__grid">
+        <div class="why__card reveal">
+          <div class="why__card-icon">✓</div>
+          <h4>Fully Insured</h4>
+          <p>Complete peace of mind — every project is fully covered so you never have to worry.</p>
+        </div>
+        <div class="why__card reveal reveal--delay-1">
+          <div class="why__card-icon">✓</div>
+          <h4>No Hidden Costs</h4>
+          <p>We quote honestly and stick to it. What you're told upfront is what you pay.</p>
+        </div>
+        <div class="why__card reveal reveal--delay-2">
+          <div class="why__card-icon">✓</div>
+          <h4>Local & Reliable</h4>
+          <p>Based right here in Suffolk — we know the area, the planning rules, and the community.</p>
+        </div>
+        <div class="why__card reveal reveal--delay-3">
+          <div class="why__card-icon">✓</div>
+          <h4>High-Quality Finishes</h4>
+          <p>We don't leave until the job is done to a standard we're proud to put our name on.</p>
+        </div>
+        <div class="why__card reveal">
+          <div class="why__card-icon">✓</div>
+          <h4>Free Consultations</h4>
+          <p>Get in touch and we'll visit your property, listen to your ideas, and provide a free no-obligation quote.</p>
+        </div>
+        <div class="why__card reveal reveal--delay-1">
+          <div class="why__card-icon">✓</div>
+          <h4>Years of Experience</h4>
+          <p>Skilled, experienced tradespeople who take genuine pride in the quality of their work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS BANNER -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Our Work</p>
+        <h2 class="section-title">Recent Projects</h2>
+        <p class="section-sub">A snapshot of what we've been building across Suffolk.</p>
+      </div>
+      <div class="projects__grid">
+        <div class="project-tile reveal">
+          <img src="driveway.jpg" alt="Block paving driveway Suffolk" />
+          <div class="project-tile__info">
+            <span>Block Paving Driveway</span>
+            <p>Suffolk</p>
+          </div>
+        </div>
+        <div class="project-tile reveal reveal--delay-1">
+          <img src="extension.jpg" alt="Kitchen extension with bifold doors" />
+          <div class="project-tile__info">
+            <span>Kitchen Extension</span>
+            <p>Suffolk</p>
+          </div>
+        </div>
+        <div class="project-tile reveal reveal--delay-2">
+          <img src="patio.jpg" alt="Natural stone patio" />
+          <div class="project-tile__info">
+            <span>Natural Stone Patio</span>
+            <p>Suffolk</p>
+          </div>
+        </div>
+        <div class="project-tile reveal reveal--delay-3">
+          <img src="resindriveway.jpg" alt="Resin driveway" />
+          <div class="project-tile__info">
+            <span>Resin Bound Driveway</span>
+            <p>Suffolk</p>
+          </div>
+        </div>
+      </div>
+      <div class="projects__cta reveal">
+        <p>More projects coming soon — follow us on Facebook for updates.</p>
+        <a href="#contact" class="btn btn--primary">Discuss Your Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews section" id="reviews">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Customer Reviews</p>
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-sub">Real words from real Suffolk homeowners. (More reviews coming soon!)</p>
+      </div>
+      <div class="reviews__grid">
+
+        <div class="review-card reveal">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">"Jed and his team did an absolutely fantastic job on our driveway. From quote to completion the whole experience was smooth and stress-free. The finish is stunning — we couldn't be happier."</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">S</div>
+            <div>
+              <strong>Sarah M.</strong>
+              <span>Ipswich, Suffolk</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card reveal reveal--delay-1">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">"We had a single-storey extension built and it's completely transformed our home. The craftsmanship is excellent and the team were tidy, professional, and great communicators throughout."</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">T</div>
+            <div>
+              <strong>Tom & Claire R.</strong>
+              <span>Bury St Edmunds, Suffolk</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card reveal reveal--delay-2">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">"Our new patio is beautiful — exactly what we envisioned. Jed was honest, kept to the agreed price and finished ahead of schedule. Will definitely be using New View Builders again."</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">L</div>
+            <div>
+              <strong>Linda H.</strong>
+              <span>Sudbury, Suffolk</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq section" id="faq">
+    <div class="container faq__inner">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Common Questions</p>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+      <div class="faq__list">
+
+        <div class="faq__item reveal">
+          <button class="faq__question" aria-expanded="false">
+            Do you offer free quotes?
+            <span class="faq__chevron">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Yes — absolutely. We offer free, no-obligation quotes for all our services. Simply get in touch and we'll arrange a convenient time to visit your property, discuss your ideas, and provide a detailed written quote at no cost.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal reveal--delay-1">
+          <button class="faq__question" aria-expanded="false">
+            What areas in Suffolk do you cover?
+            <span class="faq__chevron">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>We are based in Suffolk and cover a wide area across the county — including Ipswich, Bury St Edmunds, Sudbury, Stowmarket, Woodbridge, Felixstowe, and surrounding villages. Not sure if we cover your area? Just give us a call and we'll let you know.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal reveal--delay-2">
+          <button class="faq__question" aria-expanded="false">
+            Will I need planning permission for an extension?
+            <span class="faq__chevron">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Not always. Many home extensions fall under Permitted Development rights, meaning no formal planning application is needed. However, this depends on the size, type, and location of the extension. We can advise you on this during your initial consultation and help you navigate the process if planning permission is required.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal">
+          <button class="faq__question" aria-expanded="false">
+            How long does a typical project take?
+            <span class="faq__chevron">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Timescales vary depending on the scale and complexity of the project. A driveway or patio installation typically takes between 3–7 days. A single-storey extension can take anywhere from 6–16 weeks depending on size and specification. We'll always give you a clear timeline before work begins and keep you updated throughout.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal reveal--delay-1">
+          <button class="faq__question" aria-expanded="false">
+            Are you fully insured?
+            <span class="faq__chevron">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Yes. New View Builders carries full public liability insurance. You can have complete peace of mind knowing your home and property are protected throughout the duration of any project.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal reveal--delay-2">
+          <button class="faq__question" aria-expanded="false">
+            What materials do you use for driveways and patios?
+            <span class="faq__chevron">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>We work with a wide range of materials including block paving, natural stone (such as sandstone and limestone), porcelain slabs, resin-bound gravel, tarmac, and more. During your consultation, we'll discuss the pros, cons, and costs of each option to help you choose the best fit for your property and budget.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal">
+          <button class="faq__question" aria-expanded="false">
+            Do I need to be home during the work?
+            <span class="faq__chevron">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>It's entirely up to you. Many of our customers are at work during the day and that's no problem at all. We just ask that we have appropriate access to the work area. We'll always agree arrangements with you beforehand so there are no surprises.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container contact__inner">
+      <div class="contact__info reveal">
+        <p class="section-eyebrow light">Get In Touch</p>
+        <h2 class="section-title light">Let's Talk About<br /><em>Your Project</em></h2>
+        <p class="contact__blurb">Whether you have a clear plan or just an idea, we'd love to hear from you. Give us a call or fill in the form and we'll get back to you promptly.</p>
+        <div class="contact__details">
+          <a href="tel:07414698546" class="contact__detail-item">
+            <span class="contact__detail-icon">📞</span>
+            <div>
+              <strong>Call Jed</strong>
+              <span>07414 698 546</span>
+            </div>
+          </a>
+          <div class="contact__detail-item">
+            <span class="contact__detail-icon">📍</span>
+            <div>
+              <strong>Based In</strong>
+              <span>Suffolk, UK</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact__form-wrap reveal reveal--delay-1">
+        <form class="contact__form" id="contactForm" onsubmit="handleFormSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="John Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" placeholder="07700 000000" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service">
+              <option value="">Please select...</option>
+              <option>Extension</option>
+              <option>Patio</option>
+              <option>Driveway</option>
+              <option>Other / Not Sure Yet</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell Us About Your Project</label>
+            <textarea id="message" rows="4" placeholder="Give us a brief description of what you're looking to do..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Enquiry</button>
+          <p class="form-note">* This form is for demo purposes. To get in touch now, call <a href="tel:07414698546">07414 698 546</a>.</p>
+        </form>
+        <div class="form-success" id="formSuccess">
+          <div class="form-success__inner">
+            <div class="form-success__icon">✓</div>
+            <h3>Thank You!</h3>
+            <p>We've received your message and will be in touch soon.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__logo">
+        <img src="logo.jpg" alt="New View Builders" />
+        <p>Constructing Your Vision Perfectly.</p>
+      </div>
+      <div class="footer__links">
+        <a href="#services">Services</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#projects">Projects</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer__contact">
+        <a href="tel:07414698546">📞 07414 698 546</a>
+        <span>📍 Suffolk, UK</span>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 New View Builders. All rights reserved. | Website by <em>your agency name here</em></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
