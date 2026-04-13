@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Howe Heating | Felixstowe's Trusted Heating Specialists</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="logo.png" alt="Howe Heating" />
+      </a>
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="tel:07393998344" class="nav-cta">Call Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <header class="hero">
+    <div class="hero-bg">
+      <img
+        src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&auto=format&fit=crop&q=80"
+        alt="Modern boiler installation"
+        class="hero-img"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Felixstowe's Heating Specialists</p>
+      <h1 class="hero-title reveal delay-1">
+        Warmth You Can<br /><span class="accent">Rely On.</span>
+      </h1>
+      <p class="hero-sub reveal delay-2">
+        Boiler installs, servicing, bathroom transformations &amp; emergency breakdowns — all handled by Joby with care and expertise.
+      </p>
+      <div class="hero-actions reveal delay-3">
+        <a href="tel:07393998344" class="btn btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+          07393 998 344
+        </a>
+        <a href="#services" class="btn btn-ghost">Our Services</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- ── TRUST BAR ── -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-items">
+        <div class="trust-item">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+          <span>Gas Safe Registered</span>
+        </div>
+        <div class="trust-item">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+          <span>Local & Trusted</span>
+        </div>
+        <div class="trust-item">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+          <span>Fast Response Times</span>
+        </div>
+        <div class="trust-item">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          <span>5-Star Service</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SERVICES ── -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">What We Do</p>
+        <h2 class="section-title">Our <span class="accent">Services</span></h2>
+        <p class="section-sub">From full bathroom transformations to emergency callouts — we've got you covered.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card" data-delay="0">
+          <div class="service-img-wrap">
+            <img src="boilerchange.svg" alt="Residential boiler installation" loading="lazy" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2.05v2.02c3.95.49 7 3.85 7 7.93 0 3.21-1.81 6-4.72 7.28L13 17v5h5l-1.22-1.22C19.91 19.07 22 15.76 22 12c0-5.18-3.95-9.45-9-9.95zM11 2.05C5.95 2.55 2 6.82 2 12c0 3.76 2.09 7.07 5.22 8.78L6 22h5v-5l-2.28 2.28C7.01 18 6 15.13 6 12c0-4.08 3.05-7.44 7-7.93V2.05z"/></svg>
+            </div>
+            <h3>Boiler Changes</h3>
+            <p>Upgrade to a modern, energy-efficient boiler. Full removal of your old unit and professional installation with minimal disruption.</p>
+          </div>
+        </div>
+
+        <div class="service-card featured" data-delay="100">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=80" alt="Home central heating radiator" loading="lazy" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14l-5-5 1.41-1.41L12 14.17l7.59-7.59L21 8l-9 9z"/></svg>
+            </div>
+            <h3>Heating Installs</h3>
+            <p>Complete central heating system installations for new builds or full replacements. Pipework, radiators, controls — everything done right.</p>
+            <span class="badge">Most Popular</span>
+          </div>
+        </div>
+
+        <div class="service-card" data-delay="200">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&auto=format&fit=crop&q=80" alt="Bathroom installation" loading="lazy" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7 6c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm14 9H3v2l2 4h14l2-4v-2zm-2.26-3c-.24-.53-.74-.9-1.33-1H6.59c-.59.1-1.09.47-1.33 1L4 15h16l-1.26-3z"/></svg>
+            </div>
+            <h3>Bathrooms</h3>
+            <p>Full bathroom supply and installation. From design to the finishing touches, we create beautiful, functional spaces you'll love.</p>
+          </div>
+        </div>
+
+        <div class="service-card" data-delay="300">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&auto=format&fit=crop&q=80" alt="Boiler servicing" loading="lazy" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/></svg>
+            </div>
+            <h3>Servicing &amp; Breakdowns</h3>
+            <p>Annual boiler servicing to keep things running safely and efficiently, plus fast-response emergency breakdown cover when you need it most.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT / CTA SPLIT ── -->
+  <section class="about" id="about">
+    <div class="about-inner">
+      <div class="about-img-col">
+        <div class="about-img-wrap">
+          <img src="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=800&auto=format&fit=crop&q=80" alt="Heating engineer at work" loading="lazy" />
+          <div class="about-img-badge">
+            <strong>Joby Howe</strong>
+            <span>Founder &amp; Lead Engineer</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-text-col">
+        <p class="section-label">About Howe Heating</p>
+        <h2 class="section-title">A Name You Can <span class="accent">Trust.</span></h2>
+        <p>Howe Heating is run by Joby — a dedicated heating engineer based in Felixstowe. Whether you need a reliable boiler swap, a dream bathroom, or someone to answer an emergency call, Joby brings skill, honesty and genuine care to every job.</p>
+        <p>No call centres. No subcontractors. Just Joby, turning up on time and getting the job done properly.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <strong>100%</strong>
+            <span>Jobs completed with care</span>
+          </div>
+          <div class="stat">
+            <strong>Local</strong>
+            <span>Based in Felixstowe, Suffolk</span>
+          </div>
+          <div class="stat">
+            <strong>Direct</strong>
+            <span>Always speak to Joby</span>
+          </div>
+        </div>
+        <a href="tel:07393998344" class="btn btn-primary">Get a Free Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EMERGENCY BANNER ── -->
+  <section class="emergency-banner">
+    <div class="container">
+      <div class="emergency-inner">
+        <div class="emergency-flame">🔥</div>
+        <div class="emergency-text">
+          <h3>Boiler broken down?</h3>
+          <p>Don't suffer in the cold. Call Joby now for fast emergency assistance.</p>
+        </div>
+        <a href="tel:07393998344" class="btn btn-white">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+          07393 998 344
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── WHY CHOOSE US ── -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Why Howe Heating</p>
+        <h2 class="section-title">The Howe <span class="accent">Difference.</span></h2>
+        <p class="section-sub">We're not a faceless company. Here's what sets us apart from the rest.</p>
+      </div>
+      <div class="why-grid">
+
+        <div class="why-card" data-delay="0">
+          <div class="why-number">01</div>
+          <div class="why-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+          </div>
+          <h3>Gas Safe Registered</h3>
+          <p>Every job is carried out by a fully qualified, Gas Safe registered engineer. Your safety is never compromised — it's the foundation of everything we do.</p>
+        </div>
+
+        <div class="why-card" data-delay="100">
+          <div class="why-number">02</div>
+          <div class="why-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <h3>You Always Speak to Joby</h3>
+          <p>No call centres, no middlemen. When you get in touch, you speak directly to Joby — the person who'll actually be doing the work in your home.</p>
+        </div>
+
+        <div class="why-card" data-delay="200">
+          <div class="why-number">03</div>
+          <div class="why-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+          </div>
+          <h3>On Time, Every Time</h3>
+          <p>We respect your time. Joby arrives when he says he will, keeps you updated throughout, and won't leave until the job is finished properly.</p>
+        </div>
+
+        <div class="why-card" data-delay="300">
+          <div class="why-number">04</div>
+          <div class="why-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg>
+          </div>
+          <h3>Fair & Transparent Pricing</h3>
+          <p>No hidden charges, no nasty surprises. You'll receive a clear quote upfront so you know exactly what you're paying before any work begins.</p>
+        </div>
+
+        <div class="why-card" data-delay="400">
+          <div class="why-number">05</div>
+          <div class="why-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          </div>
+          <h3>Proudly Local</h3>
+          <p>Based right here in Felixstowe, Joby knows the area and is part of the community. Supporting Howe Heating means supporting a local tradesperson who cares.</p>
+        </div>
+
+        <div class="why-card" data-delay="500">
+          <div class="why-number">06</div>
+          <div class="why-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19.77 7.23l.01-.01-3.72-3.72L15 4.56l2.11 2.11c-.94.36-1.61 1.26-1.61 2.33 0 1.38 1.12 2.5 2.5 2.5.36 0 .69-.08 1-.21v7.21c0 .55-.45 1-1 1s-1-.45-1-1V14c0-1.1-.9-2-2-2h-1V5c0-1.1-.9-2-2-2H6c-1.1 0-2 .9-2 2v16h10v-7.5h1.5v5c0 1.38 1.12 2.5 2.5 2.5s2.5-1.12 2.5-2.5V9c0-.69-.28-1.32-.73-1.77zM12 10H6V5h6v5z"/></svg>
+          </div>
+          <h3>Tidy, Respectful Work</h3>
+          <p>Your home is treated with respect. Joby always works cleanly, protects your property and leaves everything as tidy — or tidier — than he found it.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── REVIEWS ── -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Customer Reviews</p>
+        <h2 class="section-title">What People <span class="accent">Say.</span></h2>
+        <p class="section-sub">Don't just take our word for it — here's what Joby's customers have to say.</p>
+      </div>
+      <div class="reviews-grid">
+
+        <div class="review-card" data-delay="0">
+          <div class="review-stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <p class="review-text">"Joby replaced our old boiler and had it all sorted within a day. He explained everything clearly, the price was exactly what he quoted, and he left the place spotless. Couldn't be happier — will definitely be using him again."</p>
+          <div class="review-author">
+            <div class="review-avatar">SH</div>
+            <div>
+              <strong>Sarah H.</strong>
+              <span>Boiler Replacement, Felixstowe</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card" data-delay="100">
+          <div class="review-stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <p class="review-text">"Called Joby on a cold Tuesday morning when our heating packed in. He was with us by lunchtime and had it back up and running the same afternoon. Absolute lifesaver — brilliant service, very reasonable prices too."</p>
+          <div class="review-author">
+            <div class="review-avatar">MT</div>
+            <div>
+              <strong>Mark T.</strong>
+              <span>Emergency Breakdown, Ipswich Road</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card" data-delay="200">
+          <div class="review-stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <p class="review-text">"Joby fitted a brand new bathroom for us from scratch and the result is stunning. He was professional from start to finish, kept us in the loop at every stage and the quality of the work is exceptional. Highly recommend!"</p>
+          <div class="review-author">
+            <div class="review-avatar">CW</div>
+            <div>
+              <strong>Claire W.</strong>
+              <span>Full Bathroom Install, Felixstowe</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card" data-delay="300">
+          <div class="review-stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <p class="review-text">"Had Joby come out for our annual boiler service and he was punctual, thorough and honest about the condition of the system. No upselling, no scare tactics — just a straight-talking engineer who clearly knows his trade inside out."</p>
+          <div class="review-author">
+            <div class="review-avatar">DP</div>
+            <div>
+              <strong>David P.</strong>
+              <span>Annual Boiler Service, Trimley</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FAQ ── -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Common Questions</p>
+        <h2 class="section-title">FAQs<span class="accent">.</span></h2>
+        <p class="section-sub">Everything you need to know before picking up the phone.</p>
+      </div>
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How do I know if I need a new boiler or just a repair?</span>
+            <svg class="faq-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>If your boiler is over 10–12 years old, frequently breaking down, making unusual noises or producing higher energy bills than usual, it's often more cost-effective to replace it. That said, Joby will always give you an honest assessment before recommending anything — he'll never push you towards a new boiler if a repair will do the job.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How long does a boiler replacement take?</span>
+            <svg class="faq-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>In most cases, a straightforward like-for-like boiler swap can be completed within a single day. If pipework alterations or a system change is required, it may take a day or two. Joby will give you a realistic timeframe before starting so you can plan accordingly.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Are you Gas Safe registered?</span>
+            <svg class="faq-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, absolutely. Joby is fully Gas Safe registered, which is a legal requirement for anyone working on gas appliances in the UK. You can ask to see his Gas Safe ID card at any time — he'll always have it on him. Never let anyone work on your gas appliances without checking this.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How often should I get my boiler serviced?</span>
+            <svg class="faq-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>We recommend getting your boiler serviced once a year, ideally before winter sets in (September or October is perfect). Regular servicing keeps your boiler running efficiently, helps prevent breakdowns at the worst possible time, and is often a requirement to keep your manufacturer's warranty valid.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you offer emergency callouts?</span>
+            <svg class="faq-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. Joby understands that a boiler breakdown doesn't always happen at a convenient time. He does his best to respond to emergency callouts as quickly as possible, particularly during the colder months. Give him a call directly on 07393 998 344 and he'll do everything he can to get to you promptly.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>What areas do you cover?</span>
+            <svg class="faq-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Howe Heating is based in Felixstowe and covers the surrounding Suffolk area, including Ipswich, Woodbridge, Trimley, Walton and nearby villages. Not sure if you're in the area? Just give Joby a call and he'll let you know.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can you supply the bathroom or do I need to buy everything myself?</span>
+            <svg class="faq-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Howe Heating offers a full supply and install service for bathrooms, meaning Joby can source all the fixtures, fittings and materials on your behalf — taking the hassle out of the whole process. Alternatively, if you'd prefer to source your own suite, that works too. Just chat to Joby and he'll work around what suits you best.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Get In Touch</p>
+        <h2 class="section-title">Let's Talk <span class="accent">Heating.</span></h2>
+        <p class="section-sub">Based in Felixstowe and covering the surrounding Suffolk area.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+          </div>
+          <h4>Phone</h4>
+          <a href="tel:07393998344">07393 998 344</a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          </div>
+          <h4>Location</h4>
+          <p>Felixstowe, Suffolk</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+          </div>
+          <h4>Hours</h4>
+          <p>Mon–Fri: 7am–6pm<br/>Emergency callouts available</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <img src="logo.png" alt="Howe Heating" />
+        </div>
+        <p class="footer-tagline">Keeping Felixstowe warm, one home at a time.</p>
+        <div class="footer-links">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a href="tel:07393998344">07393 998 344</a>
+        </div>
+        <p class="footer-legal">© 2025 Howe Heating. All rights reserved. | Felixstowe, Suffolk</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
